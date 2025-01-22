@@ -48,11 +48,11 @@
         "tab.active_background": "#171615",
         "search.match_background": "#6c5980",
         "panel.background": "#1c1b1a",
-        "panel.focused_border": null,
+        "panel.focused_border": "#C84B31",
         "panel.indent_guide": null,
         "panel.indent_guide_hover": null,
         "panel.indent_guide_active": null,
-        "pane.focused_border": null,
+        "pane.focused_border": "#C84B31",
         "pane_group.border": "#11151c",
         "scrollbar.thumb.background": "#a2a1a166",
         "scrollbar.thumb.hover_background": "#a2a1a199",
@@ -109,14 +109,14 @@
         "conflict.background": null,
         "conflict.border": null,
         "created": "#7fd962cc",
-        "created.background": null,
+        "created.background": "#7fd962cc",
         "created.border": null,
         "deleted": "#f26d78cc",
-        "deleted.background": null,
-        "deleted.border": null,
+        "deleted.background": "#f26d78cc",
+        "deleted.border":null,
         "error": "#d95757",
-        "error.background": null,
-        "error.border": null,
+        "error.background": "#d95757",
+        "error.border": "#d95757",
         "hidden": "#a2a1a1",
         "hidden.background": null,
         "hidden.border": null,
@@ -126,11 +126,11 @@
         "ignored": "#a2a1a180",
         "ignored.background": null,
         "ignored.border": null,
-        "info": null,
-        "info.background": null,
-        "info.border": null,
+        "info": "#39bae6",
+        "info.background": "#39bae6",
+        "info.border": "#39bae6",
         "modified": "#73b8ffcc",
-        "modified.background": null,
+        "modified.background": "#73b8ffcc",
         "modified.border": null,
         "predictive": null,
         "predictive.background": null,
@@ -144,10 +144,13 @@
         "unreachable": null,
         "unreachable.background": null,
         "unreachable.border": null,
-        "warning": "#C84B31",
-        "warning.background": null,
-        "warning.border": null,
-        "players": [],
+        "warning": "#c86c38",
+        "warning.background": "#c86c38",
+        "warning.border": "#c86c38",
+        "players": [{
+          "cursor": "#00C6BF",
+          "selection": "#409fff4d"
+        }],
         "syntax": {
           "attribute": {
             "color": "#508D69",
@@ -210,7 +213,7 @@
             "font_weight": null
           },
           "keyword": {
-            "color": "#fe6d73",
+            "color": "#F09552",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -246,7 +249,7 @@
             "font_weight": null
           },
           "property": {
-            "color": "#f07178",
+            "color": "#8946e2",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -324,13 +327,13 @@
             "font_weight": null
           },
           "title": {
-            "color": "#3081D0",
+            "color": "#39bae6",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
           "type": {
-            "color": "#39bae6",
+            "color": "#3081D0",
             "background_color": null,
             "font_style": null,
             "font_weight": null
